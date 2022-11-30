@@ -1,25 +1,34 @@
 package OOP_Basics;
 
+import OOP_Basics.Encapsulation.Encapsulation;
+
 class MainClass {
     public static void main(String[] args) {
+
+        Encapsulation encapsulation = new Encapsulation();
+
+
+        /*
 
         Developer developer = new Developer(33, "Naruto");
 
         developer.eating("Burger");
 
 
-//        Person person = new Person();
-//        Person p = new Person();
-//        person.age = 33;
-//        person.name = "Naruto";
+        Person person = new Person();
+        Person p = new Person();
+        person.age = 33;
+        person.name = "Naruto";
 
-//        Person person = new Person(33, "Naruto");
-//
-//        System.out.println(Person.count);
-//
-//        // System.out.println("My name " + person.name + " ans my age is " + person.age);
-//        person.eating("Bread");
-//        person.walking(222);
+        Person person = new Person(33, "Naruto");
+
+        System.out.println(Person.count);
+
+        // System.out.println("My name " + person.name + " ans my age is " + person.age);
+        person.eating("Bread");
+        person.walking(222);
+
+         */
 
 
     }
